@@ -1,0 +1,228 @@
+/* Vehicle Care: Arabic (العربية) strings.
+   Placeholders are positional (%1$@, %2$d) so translations can reorder them.
+   Plural counts live in Localizable.stringsdict (keys starting with plural.). */
+
+/* Common */
+"common.save" = "حفظ";
+"common.cancel" = "إلغاء";
+"common.delete" = "حذف";
+"common.done" = "تم";
+"common.ok" = "حسنًا";
+"common.skip" = "تخطي";
+"common.next" = "التالي";
+"common.errorTitle" = "حدث خطأ ما";
+"common.noteTitle" = "ملاحظة";
+"common.bike" = "دراجة";
+"common.car" = "سيارة";
+
+/* Onboarding */
+"onboarding.skipAccessibility" = "تخطي الجولة";
+"onboarding.addFirstVehicle" = "أضف مركبتي الأولى";
+"onboarding.gotIt" = "فهمت";
+"onboarding.servicesTitle" = "سجّل كل خدمة";
+"onboarding.servicesText" = "دوّن موعد صيانة دراجتك أو سيارتك، وما الذي تم استبداله، وكم كلّف ذلك، مع جدول قطع يحسب الإجمالي تلقائيًا.";
+"onboarding.quickTitle" = "سجلات سريعة بلمسة واحدة";
+"onboarding.quickText" = "المس مرة واحدة عند نفخ الإطار أو تعبئة الوقود، وسيتذكر التطبيق التاريخ عنك.";
+"onboarding.remindersTitle" = "تذكيرات تناسبك";
+"onboarding.remindersText" = "اختر متى تريد أن يُذكّرك التطبيق بفحص هواء الإطارات أو الوقود، واحصل على تنبيه قبل موعد صيانتك القادمة.";
+"onboarding.backupTitle" = "هل ستنتقل إلى هاتف جديد؟";
+"onboarding.backupText" = "صدّر كل بياناتك إلى ملف من الإعدادات ثم استوردها على جهازك الجديد. لا يغادر أي شيء هاتفك بخلاف ذلك.";
+"onboarding.startTitle" = "لنبدأ";
+"onboarding.startText" = "أضف مركبتك الأولى وابدأ التتبّع.";
+
+/* Vehicles */
+"vehicles.title" = "المركبات";
+"vehicles.emptyTitle" = "لا توجد مركبات بعد";
+"vehicles.emptyMessage" = "أضف دراجتك أو سيارتك لبدء تتبّع الصيانة والوقود وفحص الإطارات.";
+"vehicles.add" = "إضافة مركبة";
+"vehicles.lastService" = "آخر صيانة: %@";
+"vehicles.noneYet" = "لا يوجد بعد";
+"vehicles.nextReminder" = "التذكير القادم: %@";
+"vehicles.none" = "لا يوجد";
+"vehicles.totalSpent" = "إجمالي المصروفات: %@";
+
+/* Detail */
+"detail.notFoundTitle" = "المركبة غير موجودة";
+"detail.notFoundMessage" = "ربما تم حذفها.";
+"detail.navTitle" = "مركبة";
+"detail.quickLogTitle" = "سجل سريع";
+"detail.tyreLast" = "آخر فحص لهواء الإطارات: %@";
+"detail.petrolLast" = "آخر تعبئة وقود: %@";
+"detail.never" = "أبدًا";
+"detail.inflatedTyre" = "نفخت الإطار";
+"detail.filledPetrol" = "عبّأت الوقود";
+"detail.lubedChain" = "شحّمت السلسلة";
+"detail.chainLubeLast" = "آخر تشحيم للسلسلة: %@";
+"detail.addService" = "إضافة صيانة";
+"detail.upcomingReminders" = "التذكيرات القادمة";
+"detail.history" = "السجل";
+"detail.nothingLogged" = "لم يتم تسجيل شيء بعد.";
+"detail.edit" = "تعديل المركبة";
+"detail.deleteVehicle" = "حذف المركبة";
+"detail.deleteTitle" = "حذف %@؟";
+"detail.deleteMessage" = "سيؤدي هذا إلى حذف المركبة وجميع خدماتها وسجلاتها وتذكيراتها نهائيًا.";
+
+/* VehicleForm */
+"vehicleForm.type" = "النوع";
+"vehicleForm.newTitle" = "مركبة جديدة";
+"vehicleForm.editTitle" = "تعديل المركبة";
+"vehicleForm.name" = "الاسم (مثال: دراجتي)";
+"vehicleForm.make" = "الشركة المصنّعة (اختياري)";
+"vehicleForm.model" = "الطراز (اختياري)";
+"vehicleForm.regNo" = "رقم اللوحة (اختياري)";
+
+/* Service */
+"service.newTitle" = "صيانة جديدة";
+"service.editTitle" = "تعديل الصيانة";
+"service.titleField" = "العنوان (مثال: صيانة عامة)";
+"service.date" = "تاريخ الصيانة";
+"service.notes" = "ملاحظات: القطع المستبدلة وأي شيء تريد تذكّره";
+"service.costSection" = "التكلفة";
+"service.labour" = "أجرة العمل / الصيانة (%@)";
+"service.partsSection" = "القطع";
+"service.part" = "القطعة";
+"service.price" = "السعر";
+"service.qty" = "الكمية";
+"service.addPart" = "إضافة قطعة";
+"service.partsTotal" = "إجمالي القطع";
+"service.total" = "الإجمالي";
+"service.nextToggle" = "ذكّرني بالصيانة القادمة";
+"service.nextDue" = "موعد الصيانة القادمة";
+"service.nextHeader" = "تذكير الصيانة القادمة";
+"service.nextFooter" = "سيتم تذكيرك قبل %1$@، في الساعة %2$@. يمكنك تغيير ذلك من الإعدادات.";
+"service.inMonths" = "بعد %@";
+"service.deleteButton" = "حذف الصيانة";
+"service.deleteTitle" = "حذف الصيانة؟";
+"service.deleteMessage" = "سيؤدي هذا أيضًا إلى حذف قطعها وتذكيرها.";
+
+/* Quick */
+"quick.date" = "التاريخ";
+"quick.amount" = "المبلغ المدفوع (%@)";
+"quick.litres" = "اللترات";
+"quick.optional" = "اختياري";
+"quick.note" = "ملاحظة (اختياري)";
+"quick.remind" = "ذكّرني مرة أخرى";
+"quick.afterDays" = "بعد كم يوم؟";
+"quick.daysPlaceholder" = "أيام";
+"quick.daysError" = "أدخل رقمًا من 1 إلى 365";
+
+/* History */
+"history.title" = "السجل";
+"history.emptyTitle" = "لا يوجد سجل بعد";
+"history.emptyMessage" = "ستظهر هنا الخدمات والسجلات السريعة مع الإجماليات الشهرية.";
+"history.all" = "الكل";
+"history.tyreChecked" = "تم فحص هواء الإطارات";
+"history.petrolFilled" = "تمت تعبئة الوقود";
+"history.chainLubed" = "تم تشحيم السلسلة";
+"history.litresValue" = "%@ لتر";
+
+/* Settings */
+"settings.title" = "الإعدادات";
+"settings.remindersSection" = "التذكيرات";
+"settings.tyreInterval" = "هواء الإطارات: كل %@";
+"settings.petrolInterval" = "الوقود: كل %@";
+"settings.lubeInterval" = "تشحيم السلسلة: كل %@";
+"settings.leadDays" = "الصيانة: قبل الموعد بـ %@";
+"settings.notifyAt" = "وقت التنبيه";
+"settings.testNotification" = "إرسال إشعار تجريبي";
+"settings.generalSection" = "عام";
+"settings.currency" = "رمز العملة";
+"settings.currencyPlaceholder" = "₹";
+"settings.tour" = "عرض جولة التطبيق";
+"settings.retentionFooter" = "يتم الاحتفاظ بآخر %@ من السجلات فقط. تُحذف الأقدم تلقائيًا.";
+"settings.backupSection" = "النسخ الاحتياطي والنقل";
+"settings.export" = "تصدير البيانات";
+"settings.importData" = "استيراد البيانات";
+"settings.exportCSV" = "تصدير CSV لجداول البيانات";
+"settings.backupFooter" = "ستنتقل إلى هاتف جديد؟ صدّر ملفًا وأرسله إلى نفسك ثم استورده على الجهاز الجديد.";
+"settings.supportSection" = "الدعم";
+"settings.feedback" = "إرسال ملاحظات";
+"settings.share" = "شارك هذا التطبيق مع أصدقائك";
+"settings.supportFooter" = "وجدت خطأً أو لديك فكرة؟ أخبرنا. هل أعجبك التطبيق؟ شاركه مع صديق.";
+"settings.dangerSection" = "منطقة الخطر";
+"settings.reset" = "إعادة ضبط كل البيانات";
+"settings.version" = "الإصدار";
+"settings.appearanceSection" = "المظهر";
+"settings.deviceTheme" = "مظهر الجهاز";
+"settings.deviceThemeFooter" = "فعّل الخيار لاتباع الوضع الفاتح أو الداكن في آيفون. أوقفه لاختيار مظهر بنفسك.";
+"settings.lightTheme" = "فاتح";
+"settings.darkTheme" = "داكن";
+
+/* Transfer */
+"transfer.importTitle" = "استيراد نسخة احتياطية";
+"transfer.merge" = "دمج";
+"transfer.replaceAll" = "استبدال الكل";
+"transfer.importMessage" = "%@\n\nيضيف الدمج هذه البيانات إلى بياناتك الحالية (يتم تخطي المكررات). أما الاستبدال فيحذف بياناتك الحالية أولًا.";
+"transfer.summary" = "%1$@، %2$@، %3$@";
+"transfer.added" = "تمت إضافة %1$@، %2$@، %3$@.";
+"transfer.replaceTitle" = "استبدال كل البيانات؟";
+"transfer.replaceConfirm" = "استبدال";
+"transfer.replaceMessage" = "سيتم حذف بياناتك الحالية على هذا الجهاز.";
+"transfer.cantImport" = "تعذّر استيراد هذا الملف. %@";
+"transfer.unreadable" = "تعذّرت قراءة الملف.";
+"transfer.resetTitle" = "إعادة ضبط كل البيانات؟";
+"transfer.resetConfirm" = "إعادة ضبط كل شيء";
+"transfer.resetMessage" = "سيؤدي هذا إلى حذف كل مركبة وصيانة وسجل وتذكير على هذا الجهاز نهائيًا. صدّر نسخة احتياطية أولًا إذا كنت قد تحتاجها.";
+
+/* Feedback */
+"feedback.title" = "إرسال ملاحظات";
+"feedback.type" = "النوع";
+"feedback.categoryBug" = "هناك شيء لا يعمل";
+"feedback.categoryIdea" = "فكرة أو اقتراح";
+"feedback.categoryOther" = "أخرى";
+"feedback.messageHeader" = "رسالتك";
+"feedback.messagePlaceholder" = "أخبرنا بما حدث أو بما تود رؤيته";
+"feedback.messageFooter" = "اضغط إرسال لفتح رسالة بريد إلى %@.";
+"feedback.attachmentsHeader" = "المرفقات (اختياري)";
+"feedback.attachmentsFooter" = "حتى %1$@، بإجمالي %2$@. لقطات الشاشة مفيدة جدًا.";
+"feedback.addMedia" = "إضافة صورة أو فيديو";
+"feedback.addFile" = "إضافة ملف";
+"feedback.remove" = "إزالة %@";
+"feedback.deviceInfo" = "تضمين معلومات التطبيق والجهاز";
+"feedback.deviceInfoFooter" = "إصدار التطبيق وإصدار iOS وطراز الجهاز. بدون أي بيانات شخصية.";
+"feedback.send" = "إرسال";
+"feedback.thanks" = "شكرًا لك! ملاحظاتك في طريقها إلينا.";
+"feedback.noMailTitle" = "تطبيق البريد غير مُعدّ على هذا الجهاز";
+"feedback.shareOther" = "مشاركة عبر تطبيق آخر";
+"feedback.copyEmail" = "نسخ عنوان البريد";
+"feedback.noMailMessage" = "يمكنك مشاركة ملاحظاتك ومرفقاتك عبر Gmail أو أي تطبيق آخر، أو نسخ العنوان وكتابة رسالة إلينا بنفسك.";
+"feedback.attachmentTitle" = "مرفق";
+"feedback.tooMany" = "يمكنك إرفاق ما يصل إلى %@.";
+"feedback.tooLarge" = "\"%1$@\" كبير جدًا. يمكن أن يبلغ إجمالي المرفقات %2$@ كحد أقصى.";
+"feedback.loadFailed" = "تعذّر تحميل أحد العناصر.";
+"feedback.readFailed" = "تعذّرت قراءة \"%@\".";
+
+/* Share */
+"share.message" = "أستخدم %@ لتتبّع صيانة دراجتي وسيارتي والوقود وفحص الإطارات مع تذكيرات. تبقى كل البيانات على هاتفك.";
+
+/* Reminder */
+"reminder.tyreTitle" = "افحص ضغط الإطارات";
+"reminder.petrolTitle" = "افحص الوقود";
+"reminder.lubeTitle" = "حان وقت تشحيم السلسلة";
+"reminder.serviceTitle" = "حان موعد الصيانة";
+"reminder.tyreBody" = "حان وقت فحص هواء إطارات %@.";
+"reminder.petrolBody" = "افحص مستوى الوقود في %@.";
+"reminder.lubeBody" = "حان وقت تنظيف سلسلة %@ وتشحيمها.";
+"reminder.serviceBody" = "%1$@: موعد %2$@ هو %3$@.";
+"reminder.testBody" = "الإشعارات تعمل.";
+
+/* Notice */
+"notice.servicePassed" = "لقد مضى موعد الصيانة القادمة بالفعل، لذلك لم يتم ضبط أي تذكير.";
+"notice.serviceNoNotifications" = "تم حفظ التذكير، لكن الإشعارات متوقفة لهذا التطبيق. فعّلها من الإعدادات لتصلك.";
+"notice.quickNoNotifications" = "تم التسجيل، لكن الإشعارات متوقفة لهذا التطبيق. فعّلها من الإعدادات لتصلك التذكيرات.";
+"notice.testOk" = "ستظهر لك رسالة إشعار خلال ثوانٍ. اقفل الهاتف أو اخرج من التطبيق لرؤيتها.";
+"notice.testOff" = "الإشعارات متوقفة لهذا التطبيق. فعّلها من تطبيق إعدادات الآيفون.";
+
+/* BackupError */
+"backupError.notJSON" = "الملف ليس بصيغة JSON صالحة.";
+"backupError.notBackup" = "هذا ليس ملف نسخة احتياطية لتطبيق %@.";
+"backupError.noVersion" = "لا يحتوي ملف النسخة الاحتياطية على إصدار صالح.";
+"backupError.newer" = "تم إنشاء هذه النسخة الاحتياطية بإصدار أحدث من التطبيق. يرجى تحديث التطبيق والمحاولة مرة أخرى.";
+"backupError.missing" = "النسخة الاحتياطية تفتقد \"%@\".";
+"backupError.invalidIn" = "قيمة غير صالحة لـ \"%@\" في النسخة الاحتياطية.";
+"backupError.unreadable" = "تعذّرت قراءة ملف النسخة الاحتياطية.";
+"backupError.invalidField" = "قيمة غير صالحة لـ \"%1$@\" في \"%2$@\" (العنصر %3$d).";
+"backupError.dangling" = "تحتوي النسخة الاحتياطية على سجلات تشير إلى مركبات أو خدمات غير موجودة.";
+
+/* App */
+"app.startupError" = "تعذّر على %1$@ فتح قاعدة بياناته.\n%2$@";

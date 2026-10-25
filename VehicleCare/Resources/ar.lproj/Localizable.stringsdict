@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>plural.days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>%d يوم</string>
+			<key>one</key>
+			<string>يوم واحد</string>
+			<key>two</key>
+			<string>يومان</string>
+			<key>few</key>
+			<string>%d أيام</string>
+			<key>many</key>
+			<string>%d يومًا</string>
+			<key>other</key>
+			<string>%d يوم</string>
+		</dict>
+	</dict>
+	<key>plural.months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>%d شهر</string>
+			<key>one</key>
+			<string>شهر واحد</string>
+			<key>two</key>
+			<string>شهران</string>
+			<key>few</key>
+			<string>%d أشهر</string>
+			<key>many</key>
+			<string>%d شهرًا</string>
+			<key>other</key>
+			<string>%d شهر</string>
+		</dict>
+	</dict>
+	<key>plural.vehicles</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>لا مركبات</string>
+			<key>one</key>
+			<string>مركبة واحدة</string>
+			<key>two</key>
+			<string>مركبتان</string>
+			<key>few</key>
+			<string>%d مركبات</string>
+			<key>many</key>
+			<string>%d مركبة</string>
+			<key>other</key>
+			<string>%d مركبة</string>
+		</dict>
+	</dict>
+	<key>plural.services</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>لا خدمات</string>
+			<key>one</key>
+			<string>خدمة واحدة</string>
+			<key>two</key>
+			<string>خدمتان</string>
+			<key>few</key>
+			<string>%d خدمات</string>
+			<key>many</key>
+			<string>%d خدمة</string>
+			<key>other</key>
+			<string>%d خدمة</string>
+		</dict>
+	</dict>
+	<key>plural.quickLogs</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>لا سجلات سريعة</string>
+			<key>one</key>
+			<string>سجل سريع واحد</string>
+			<key>two</key>
+			<string>سجلان سريعان</string>
+			<key>few</key>
+			<string>%d سجلات سريعة</string>
+			<key>many</key>
+			<string>%d سجلًا سريعًا</string>
+			<key>other</key>
+			<string>%d سجل سريع</string>
+		</dict>
+	</dict>
+	<key>plural.files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>لا ملفات</string>
+			<key>one</key>
+			<string>ملف واحد</string>
+			<key>two</key>
+			<string>ملفان</string>
+			<key>few</key>
+			<string>%d ملفات</string>
+			<key>many</key>
+			<string>%d ملفًا</string>
+			<key>other</key>
+			<string>%d ملف</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

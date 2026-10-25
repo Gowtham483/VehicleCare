@@ -1,0 +1,228 @@
+/* Vehicle Care: English strings.
+   Placeholders are positional (%1$@, %2$d) so translations can reorder them.
+   Plural counts live in Localizable.stringsdict (keys starting with plural.). */
+
+/* Common */
+"common.save" = "Save";
+"common.cancel" = "Cancel";
+"common.delete" = "Delete";
+"common.done" = "Done";
+"common.ok" = "OK";
+"common.skip" = "Skip";
+"common.next" = "Next";
+"common.errorTitle" = "Something went wrong";
+"common.noteTitle" = "Note";
+"common.bike" = "Bike";
+"common.car" = "Car";
+
+/* Onboarding */
+"onboarding.skipAccessibility" = "Skip tour";
+"onboarding.addFirstVehicle" = "Add my first vehicle";
+"onboarding.gotIt" = "Got it";
+"onboarding.servicesTitle" = "Log every service";
+"onboarding.servicesText" = "Record when you serviced your bike or car, what was replaced, and what it cost, with a parts table that adds up the total.";
+"onboarding.quickTitle" = "One-tap quick logs";
+"onboarding.quickText" = "Tap once when you inflate a tyre or fill petrol. The app remembers the date for you.";
+"onboarding.remindersTitle" = "Reminders that fit you";
+"onboarding.remindersText" = "Choose when to be reminded to check tyre air or fuel again, and get a nudge before your next service is due.";
+"onboarding.backupTitle" = "Switching phones?";
+"onboarding.backupText" = "Export all your data to a file in Settings and import it on your new device. Nothing leaves your phone otherwise.";
+"onboarding.startTitle" = "Let's get started";
+"onboarding.startText" = "Add your first vehicle and start tracking.";
+
+/* Vehicles */
+"vehicles.title" = "Vehicles";
+"vehicles.emptyTitle" = "No vehicles yet";
+"vehicles.emptyMessage" = "Add your bike or car to start tracking services, fuel and tyre checks.";
+"vehicles.add" = "Add vehicle";
+"vehicles.lastService" = "Last service: %@";
+"vehicles.noneYet" = "none yet";
+"vehicles.nextReminder" = "Next reminder: %@";
+"vehicles.none" = "none";
+"vehicles.totalSpent" = "Total spent: %@";
+
+/* Detail */
+"detail.notFoundTitle" = "Vehicle not found";
+"detail.notFoundMessage" = "It may have been deleted.";
+"detail.navTitle" = "Vehicle";
+"detail.quickLogTitle" = "Quick log";
+"detail.tyreLast" = "Tyre air last checked: %@";
+"detail.petrolLast" = "Petrol last filled: %@";
+"detail.never" = "never";
+"detail.inflatedTyre" = "Inflated tyre";
+"detail.filledPetrol" = "Filled petrol";
+"detail.lubedChain" = "Lubed chain";
+"detail.chainLubeLast" = "Chain last lubed: %@";
+"detail.addService" = "Add service";
+"detail.upcomingReminders" = "Upcoming reminders";
+"detail.history" = "History";
+"detail.nothingLogged" = "Nothing logged yet.";
+"detail.edit" = "Edit vehicle";
+"detail.deleteVehicle" = "Delete vehicle";
+"detail.deleteTitle" = "Delete %@?";
+"detail.deleteMessage" = "This permanently deletes the vehicle and all its services, logs and reminders.";
+
+/* VehicleForm */
+"vehicleForm.type" = "Type";
+"vehicleForm.newTitle" = "New vehicle";
+"vehicleForm.editTitle" = "Edit vehicle";
+"vehicleForm.name" = "Name (e.g. My Duke)";
+"vehicleForm.make" = "Make (optional)";
+"vehicleForm.model" = "Model (optional)";
+"vehicleForm.regNo" = "Registration no. (optional)";
+
+/* Service */
+"service.newTitle" = "New service";
+"service.editTitle" = "Edit service";
+"service.titleField" = "Title (e.g. General service)";
+"service.date" = "Service date";
+"service.notes" = "Notes: parts replaced, anything to remember";
+"service.costSection" = "Cost";
+"service.labour" = "Labour / service charge (%@)";
+"service.partsSection" = "Parts";
+"service.part" = "Part";
+"service.price" = "Price";
+"service.qty" = "Qty";
+"service.addPart" = "Add part";
+"service.partsTotal" = "Parts total";
+"service.total" = "Total";
+"service.nextToggle" = "Remind me about the next service";
+"service.nextDue" = "Next service due";
+"service.nextHeader" = "Next service reminder";
+"service.nextFooter" = "You will be reminded %1$@ before, at %2$@. Change this in Settings.";
+"service.inMonths" = "In %@";
+"service.deleteButton" = "Delete service";
+"service.deleteTitle" = "Delete service?";
+"service.deleteMessage" = "This also removes its parts and reminder.";
+
+/* Quick */
+"quick.date" = "Date";
+"quick.amount" = "Amount paid (%@)";
+"quick.litres" = "Litres";
+"quick.optional" = "optional";
+"quick.note" = "Note (optional)";
+"quick.remind" = "Remind me again";
+"quick.afterDays" = "After how many days?";
+"quick.daysPlaceholder" = "days";
+"quick.daysError" = "Enter a number from 1 to 365";
+
+/* History */
+"history.title" = "History";
+"history.emptyTitle" = "No history yet";
+"history.emptyMessage" = "Services and quick logs will show up here with monthly totals.";
+"history.all" = "All";
+"history.tyreChecked" = "Tyre air checked";
+"history.petrolFilled" = "Petrol filled";
+"history.chainLubed" = "Chain lubed";
+"history.litresValue" = "%@ L";
+
+/* Settings */
+"settings.title" = "Settings";
+"settings.remindersSection" = "Reminders";
+"settings.tyreInterval" = "Tyre air: every %@";
+"settings.petrolInterval" = "Petrol: every %@";
+"settings.lubeInterval" = "Chain lube: every %@";
+"settings.leadDays" = "Service: %@ before due";
+"settings.notifyAt" = "Notify at";
+"settings.testNotification" = "Send test notification";
+"settings.generalSection" = "General";
+"settings.currency" = "Currency symbol";
+"settings.currencyPlaceholder" = "₹";
+"settings.tour" = "Show app tour";
+"settings.retentionFooter" = "Only the last %@ of records are kept. Older ones are removed automatically.";
+"settings.backupSection" = "Backup & transfer";
+"settings.export" = "Export data";
+"settings.importData" = "Import data";
+"settings.exportCSV" = "Export CSV for spreadsheets";
+"settings.backupFooter" = "Moving to a new phone? Export a file, send it to yourself, then import it on the new device.";
+"settings.supportSection" = "Support";
+"settings.feedback" = "Send feedback";
+"settings.share" = "Share this app with friends";
+"settings.supportFooter" = "Found a bug or have an idea? Tell us. Enjoying the app? Share it with a friend.";
+"settings.dangerSection" = "Danger zone";
+"settings.reset" = "Reset all data";
+"settings.version" = "Version";
+"settings.appearanceSection" = "Appearance";
+"settings.deviceTheme" = "Device theme";
+"settings.deviceThemeFooter" = "Turn on to follow your iPhone's light or dark setting. Turn off to choose a theme yourself.";
+"settings.lightTheme" = "Light";
+"settings.darkTheme" = "Dark";
+
+/* Transfer */
+"transfer.importTitle" = "Import backup";
+"transfer.merge" = "Merge";
+"transfer.replaceAll" = "Replace all";
+"transfer.importMessage" = "%@\n\nMerge adds them to your current data (duplicates are skipped). Replace deletes your current data first.";
+"transfer.summary" = "%1$@, %2$@, %3$@";
+"transfer.added" = "Added %1$@, %2$@, %3$@.";
+"transfer.replaceTitle" = "Replace all data?";
+"transfer.replaceConfirm" = "Replace";
+"transfer.replaceMessage" = "Your current data on this device will be deleted.";
+"transfer.cantImport" = "Can't import this file. %@";
+"transfer.unreadable" = "The file could not be read.";
+"transfer.resetTitle" = "Reset all data?";
+"transfer.resetConfirm" = "Reset everything";
+"transfer.resetMessage" = "This permanently deletes every vehicle, service, log and reminder on this device. Export a backup first if you might need it.";
+
+/* Feedback */
+"feedback.title" = "Send feedback";
+"feedback.type" = "Type";
+"feedback.categoryBug" = "Something is broken";
+"feedback.categoryIdea" = "Idea or suggestion";
+"feedback.categoryOther" = "Other";
+"feedback.messageHeader" = "Your message";
+"feedback.messagePlaceholder" = "Tell us what happened or what you would like to see";
+"feedback.messageFooter" = "Tap Send to open an email to %@.";
+"feedback.attachmentsHeader" = "Attachments (optional)";
+"feedback.attachmentsFooter" = "Up to %1$@, %2$@ in total. Screenshots help a lot.";
+"feedback.addMedia" = "Add photo or video";
+"feedback.addFile" = "Add file";
+"feedback.remove" = "Remove %@";
+"feedback.deviceInfo" = "Include app and device info";
+"feedback.deviceInfoFooter" = "App version, iOS version and device model. No personal data.";
+"feedback.send" = "Send";
+"feedback.thanks" = "Thank you! Your feedback is on its way.";
+"feedback.noMailTitle" = "Mail isn't set up on this device";
+"feedback.shareOther" = "Share with another app";
+"feedback.copyEmail" = "Copy email address";
+"feedback.noMailMessage" = "You can share your feedback and attachments with Gmail or any other app instead, or copy the address and write to us yourself.";
+"feedback.attachmentTitle" = "Attachment";
+"feedback.tooMany" = "You can attach up to %@.";
+"feedback.tooLarge" = "\"%1$@\" is too large. Attachments can total %2$@ at most.";
+"feedback.loadFailed" = "One of the items could not be loaded.";
+"feedback.readFailed" = "\"%@\" could not be read.";
+
+/* Share */
+"share.message" = "I use %@ to keep track of my bike and car services, fuel and tyre checks, with reminders. All the data stays on your phone.";
+
+/* Reminder */
+"reminder.tyreTitle" = "Check tyre pressure";
+"reminder.petrolTitle" = "Check your fuel";
+"reminder.lubeTitle" = "Lube your chain";
+"reminder.serviceTitle" = "Service due";
+"reminder.tyreBody" = "Time to check the tyre air on %@.";
+"reminder.petrolBody" = "Check the fuel level on %@.";
+"reminder.lubeBody" = "Time to clean and lube the chain on %@.";
+"reminder.serviceBody" = "%1$@: %2$@ is due on %3$@.";
+"reminder.testBody" = "Notifications are working.";
+
+/* Notice */
+"notice.servicePassed" = "The next service date has already passed, so no reminder was set.";
+"notice.serviceNoNotifications" = "The reminder is saved, but notifications are turned off for this app. Enable them in Settings to get it.";
+"notice.quickNoNotifications" = "Logged, but notifications are turned off for this app. Enable them in Settings to get reminders.";
+"notice.testOk" = "You should see a notification in a few seconds. Lock the phone or leave the app to see it.";
+"notice.testOff" = "Notifications are off for this app. Enable them in the iPhone Settings app.";
+
+/* BackupError */
+"backupError.notJSON" = "The file is not valid JSON.";
+"backupError.notBackup" = "This is not a %@ backup file.";
+"backupError.noVersion" = "The backup file has no valid version.";
+"backupError.newer" = "This backup was made by a newer version of the app. Please update the app and try again.";
+"backupError.missing" = "The backup is missing \"%@\".";
+"backupError.invalidIn" = "Invalid \"%@\" in the backup.";
+"backupError.unreadable" = "The backup file could not be read.";
+"backupError.invalidField" = "Invalid \"%1$@\" in \"%2$@\" (entry %3$d).";
+"backupError.dangling" = "The backup has records that point to missing vehicles or services.";
+
+/* App */
+"app.startupError" = "%1$@ could not open its database.\n%2$@";
